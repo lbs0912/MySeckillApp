@@ -20,6 +20,9 @@
 		63C5A76922ACB58900091EDE /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76822ACB58900091EDE /* SKNavigationController.m */; };
 		63C5A76E22ACBAFA00091EDE /* SKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */; };
 		63C5A77122ACC85300091EDE /* SKListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A77022ACC85300091EDE /* SKListCellView.m */; };
+		74A866E14EAA36A1DED6FE8B /* libPods-MySeckillAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB55043976C489EDD9E60B2 /* libPods-MySeckillAppUITests.a */; };
+		823022BDF37EF53A65C996B4 /* libPods-MySeckillAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9979EC0EEAFE218089B2F /* libPods-MySeckillAppTests.a */; };
+		E155988A445C8A0D97345089 /* libPods-MySeckillApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1048BD9B874BF41B120944 /* libPods-MySeckillApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		473907854F4D9F7A70951131 /* Pods-MySeckillApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillApp/Pods-MySeckillApp.debug.xcconfig"; sourceTree = "<group>"; };
+		557B6EAD14ABFA9BDA1176DD /* Pods-MySeckillAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppTests/Pods-MySeckillAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		595139E225792E1F7F1F0E85 /* Pods-MySeckillAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppUITests/Pods-MySeckillAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		63C5A72122ACAB8800091EDE /* MySeckillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySeckillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C5A72422ACAB8800091EDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C5A72522ACAB8800091EDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +72,12 @@
 		63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBaseTableViewController.m; sourceTree = "<group>"; };
 		63C5A76F22ACC85300091EDE /* SKListCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKListCellView.h; sourceTree = "<group>"; };
 		63C5A77022ACC85300091EDE /* SKListCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKListCellView.m; sourceTree = "<group>"; };
+		98E9979EC0EEAFE218089B2F /* libPods-MySeckillAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MySeckillAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90000840B1724E5B42CAB7A /* Pods-MySeckillAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppUITests/Pods-MySeckillAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D875BC8B0A5FD61526D79C36 /* Pods-MySeckillAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppTests/Pods-MySeckillAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE1048BD9B874BF41B120944 /* libPods-MySeckillApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MySeckillApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB55043976C489EDD9E60B2 /* libPods-MySeckillAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MySeckillAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD28EC99C1960E51BCC3B6A1 /* Pods-MySeckillApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillApp/Pods-MySeckillApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E155988A445C8A0D97345089 /* libPods-MySeckillApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823022BDF37EF53A65C996B4 /* libPods-MySeckillAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,12 +101,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A866E14EAA36A1DED6FE8B /* libPods-MySeckillAppUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070110A0CEBD847A22D41D5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE1048BD9B874BF41B120944 /* libPods-MySeckillApp.a */,
+				98E9979EC0EEAFE218089B2F /* libPods-MySeckillAppTests.a */,
+				ECB55043976C489EDD9E60B2 /* libPods-MySeckillAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E1875C01382A1829BF3EE6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473907854F4D9F7A70951131 /* Pods-MySeckillApp.debug.xcconfig */,
+				FD28EC99C1960E51BCC3B6A1 /* Pods-MySeckillApp.release.xcconfig */,
+				557B6EAD14ABFA9BDA1176DD /* Pods-MySeckillAppTests.debug.xcconfig */,
+				D875BC8B0A5FD61526D79C36 /* Pods-MySeckillAppTests.release.xcconfig */,
+				A90000840B1724E5B42CAB7A /* Pods-MySeckillAppUITests.debug.xcconfig */,
+				595139E225792E1F7F1F0E85 /* Pods-MySeckillAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		63C5A71822ACAB8800091EDE = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +138,8 @@
 				63C5A73C22ACAB8900091EDE /* MySeckillAppTests */,
 				63C5A74722ACAB8900091EDE /* MySeckillAppUITests */,
 				63C5A72222ACAB8800091EDE /* Products */,
+				0E1875C01382A1829BF3EE6C /* Pods */,
+				070110A0CEBD847A22D41D5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63C5A74D22ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillApp" */;
 			buildPhases = (
+				E22858C8B5D6A2CE587A4D6A /* [CP] Check Pods Manifest.lock */,
 				63C5A71D22ACAB8800091EDE /* Sources */,
 				63C5A71E22ACAB8800091EDE /* Frameworks */,
 				63C5A71F22ACAB8800091EDE /* Resources */,
+				6567225C8D0F2F8ABBA457ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63C5A75022ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppTests" */;
 			buildPhases = (
+				39802322473A3B7BD85D864A /* [CP] Check Pods Manifest.lock */,
 				63C5A73522ACAB8900091EDE /* Sources */,
 				63C5A73622ACAB8900091EDE /* Frameworks */,
 				63C5A73722ACAB8900091EDE /* Resources */,
@@ -295,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63C5A75322ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppUITests" */;
 			buildPhases = (
+				0CD078F8E98069732A4A5175 /* [CP] Check Pods Manifest.lock */,
 				63C5A74022ACAB8900091EDE /* Sources */,
 				63C5A74122ACAB8900091EDE /* Frameworks */,
 				63C5A74222ACAB8900091EDE /* Resources */,
@@ -377,6 +421,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD078F8E98069732A4A5175 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySeckillAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39802322473A3B7BD85D864A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySeckillAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6567225C8D0F2F8ABBA457ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySeckillApp/Pods-MySeckillApp-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySeckillApp/Pods-MySeckillApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22858C8B5D6A2CE587A4D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySeckillApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63C5A71D22ACAB8800091EDE /* Sources */ = {
@@ -559,6 +694,7 @@
 		};
 		63C5A74E22ACAB8900091EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473907854F4D9F7A70951131 /* Pods-MySeckillApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +712,7 @@
 		};
 		63C5A74F22ACAB8900091EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD28EC99C1960E51BCC3B6A1 /* Pods-MySeckillApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +730,7 @@
 		};
 		63C5A75122ACAB8900091EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557B6EAD14ABFA9BDA1176DD /* Pods-MySeckillAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -612,6 +750,7 @@
 		};
 		63C5A75222ACAB8900091EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D875BC8B0A5FD61526D79C36 /* Pods-MySeckillAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -631,6 +770,7 @@
 		};
 		63C5A75422ACAB8900091EDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90000840B1724E5B42CAB7A /* Pods-MySeckillAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JAF83NDSX6;
@@ -649,6 +789,7 @@
 		};
 		63C5A75522ACAB8900091EDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595139E225792E1F7F1F0E85 /* Pods-MySeckillAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JAF83NDSX6;
