@@ -10,14 +10,45 @@
  主页视图
  */
 
+
+#define SKWeakSelf __weak typeof(self) weakSelf = self
+
+
 #import "SKHomePageViewController.h"
 #import "SKListCellView.h"
 
+
+
+#import "SKListModel.h"
+
+#import <AFNetworking.h>  // 3rd  A delightful networking framework
+#import <MJRefresh.h>  //3rd  An easy way to use pull-to-refresh
+
 @interface SKHomePageViewController ()
+
+@property (nonatomic,strong) AFHTTPSessionManager *manager;
+@property (nonatomic, strong) NSMutableArray *listArray;
 
 @end
 
 @implementation SKHomePageViewController
+
+#pragma mark - getter
+- (NSMutableArray *)listArray
+{
+    if (!_listArray) {
+        _listArray = [NSMutableArray array];
+    }
+    return _listArray;
+}
+
+- (AFHTTPSessionManager *) manager {
+    if(!_manager){
+        _manager = [AFHTTPSessionManager manager];
+    }
+    return _manager;
+}
+
 
 #pragma mark - life cycle
 - (void)viewDidLoad {
@@ -41,9 +72,51 @@
 
 /// 设置刷新
 - (void) setUpRefresh {
-    self.tableView.mj_header = [];
+    self.tableView.mj_header = [MJRefreshGifHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadData)];
+    [self.tableView.mj_header beginRefreshing];
 }
 
+
+#pragma mark - loadData
+- (void) loadData {
+    SKWeakSelf;   //@TODO ???
+    self.listArray = nil;
+    [self.manager GET: @"http://guangdiu.com/api/getlist.php"
+           parameters:nil
+             progress:nil
+              success:^(NSURLSessionDataTask *_Nonnull task, id _Nullable responseObject) {
+                  weakSelf.listArray = [SKListModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"]];
+                  [weakSelf.tableView reloadData];
+                  [weakSelf.tableView.mj_header endRefreshing];
+                  weakSelf.tableView.mj_footer =
+                  [MJRefreshAutoGifFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+              }
+              failure:^(NSURLSessionDataTask *_Nullable task, NSError *_Nonnull error) {
+                  NSLog(@"%@", error);
+              }];
+
+    
+
+}
+
+
+- (void)loadMoreData
+{
+    SKWeakSelf;
+    
+    [self.manager GET:@"http://guangdiu.com/api/getlist.php"
+           parameters:nil
+             progress:nil
+              success:^(NSURLSessionDataTask *_Nonnull task, id _Nullable responseObject) {
+                  [weakSelf.listArray
+                   addObjectsFromArray:[GDListModel mj_objectArrayWithKeyValuesArray:responseObject[@"data"]]];
+                  [weakSelf.tableView reloadData];
+                  [weakSelf.tableView.mj_footer endRefreshing];
+              }
+              failure:^(NSURLSessionDataTask *_Nullable task, NSError *_Nonnull error) {
+                  NSLog(@"%@", error);
+              }];
+}
 
 - (void) hotBtnClick {
     

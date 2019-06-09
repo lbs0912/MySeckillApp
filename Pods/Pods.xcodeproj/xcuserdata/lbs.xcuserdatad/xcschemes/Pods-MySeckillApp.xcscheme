@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B5CEFB8AF84162C0142D8D9E7832997"
+               BlueprintIdentifier = "52DC65C5687F23B9051291636E9B77D6"
                BuildableName = "libPods-MySeckillApp.a"
                BlueprintName = "Pods-MySeckillApp"
                ReferencedContainer = "container:Pods.xcodeproj">

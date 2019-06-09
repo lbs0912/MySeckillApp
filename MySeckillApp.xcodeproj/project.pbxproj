@@ -20,6 +20,7 @@
 		63C5A76922ACB58900091EDE /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76822ACB58900091EDE /* SKNavigationController.m */; };
 		63C5A76E22ACBAFA00091EDE /* SKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */; };
 		63C5A77122ACC85300091EDE /* SKListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A77022ACC85300091EDE /* SKListCellView.m */; };
+		63C5A77422ACD77100091EDE /* SKListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A77322ACD77100091EDE /* SKListModel.m */; };
 		74A866E14EAA36A1DED6FE8B /* libPods-MySeckillAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB55043976C489EDD9E60B2 /* libPods-MySeckillAppUITests.a */; };
 		823022BDF37EF53A65C996B4 /* libPods-MySeckillAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9979EC0EEAFE218089B2F /* libPods-MySeckillAppTests.a */; };
 		E155988A445C8A0D97345089 /* libPods-MySeckillApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1048BD9B874BF41B120944 /* libPods-MySeckillApp.a */; };
@@ -72,6 +73,8 @@
 		63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBaseTableViewController.m; sourceTree = "<group>"; };
 		63C5A76F22ACC85300091EDE /* SKListCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKListCellView.h; sourceTree = "<group>"; };
 		63C5A77022ACC85300091EDE /* SKListCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKListCellView.m; sourceTree = "<group>"; };
+		63C5A77222ACD77100091EDE /* SKListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKListModel.h; sourceTree = "<group>"; };
+		63C5A77322ACD77100091EDE /* SKListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKListModel.m; sourceTree = "<group>"; };
 		98E9979EC0EEAFE218089B2F /* libPods-MySeckillAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MySeckillAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90000840B1724E5B42CAB7A /* Pods-MySeckillAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppUITests/Pods-MySeckillAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D875BC8B0A5FD61526D79C36 /* Pods-MySeckillAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySeckillAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySeckillAppTests/Pods-MySeckillAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +256,8 @@
 		63C5A76122ACB28600091EDE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				63C5A77222ACD77100091EDE /* SKListModel.h */,
+				63C5A77322ACD77100091EDE /* SKListModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C5A77122ACC85300091EDE /* SKListCellView.m in Sources */,
+				63C5A77422ACD77100091EDE /* SKListModel.m in Sources */,
 				63C5A75E22ACAE4A00091EDE /* SKTabBarController.m in Sources */,
 				63C5A72922ACAB8800091EDE /* ViewController.m in Sources */,
 				63C5A76E22ACBAFA00091EDE /* SKBaseTableViewController.m in Sources */,
