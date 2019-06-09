@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63C5A72622ACAB8800091EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A72522ACAB8800091EDE /* AppDelegate.m */; };
+		63C5A72922ACAB8800091EDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A72822ACAB8800091EDE /* ViewController.m */; };
+		63C5A72C22ACAB8800091EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C5A72A22ACAB8800091EDE /* Main.storyboard */; };
+		63C5A72E22ACAB8900091EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C5A72D22ACAB8900091EDE /* Assets.xcassets */; };
+		63C5A73122ACAB8900091EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C5A72F22ACAB8900091EDE /* LaunchScreen.storyboard */; };
+		63C5A73422ACAB8900091EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A73322ACAB8900091EDE /* main.m */; };
+		63C5A73E22ACAB8900091EDE /* MySeckillAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A73D22ACAB8900091EDE /* MySeckillAppTests.m */; };
+		63C5A74922ACAB8900091EDE /* MySeckillAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A74822ACAB8900091EDE /* MySeckillAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C5A73A22ACAB8900091EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C5A71922ACAB8800091EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C5A72022ACAB8800091EDE;
+			remoteInfo = MySeckillApp;
+		};
+		63C5A74522ACAB8900091EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C5A71922ACAB8800091EDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C5A72022ACAB8800091EDE;
+			remoteInfo = MySeckillApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63C5A72122ACAB8800091EDE /* MySeckillApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySeckillApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5A72422ACAB8800091EDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63C5A72522ACAB8800091EDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63C5A72722ACAB8800091EDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63C5A72822ACAB8800091EDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63C5A72B22ACAB8800091EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C5A72D22ACAB8900091EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C5A73022ACAB8900091EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C5A73222ACAB8900091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C5A73322ACAB8900091EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63C5A73922ACAB8900091EDE /* MySeckillAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySeckillAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5A73D22ACAB8900091EDE /* MySeckillAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySeckillAppTests.m; sourceTree = "<group>"; };
+		63C5A73F22ACAB8900091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C5A74422ACAB8900091EDE /* MySeckillAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySeckillAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5A74822ACAB8900091EDE /* MySeckillAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySeckillAppUITests.m; sourceTree = "<group>"; };
+		63C5A74A22ACAB8900091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C5A71E22ACAB8800091EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A73622ACAB8900091EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A74122ACAB8900091EDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C5A71822ACAB8800091EDE = {
+			isa = PBXGroup;
+			children = (
+				63C5A72322ACAB8800091EDE /* MySeckillApp */,
+				63C5A73C22ACAB8900091EDE /* MySeckillAppTests */,
+				63C5A74722ACAB8900091EDE /* MySeckillAppUITests */,
+				63C5A72222ACAB8800091EDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C5A72222ACAB8800091EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A72122ACAB8800091EDE /* MySeckillApp.app */,
+				63C5A73922ACAB8900091EDE /* MySeckillAppTests.xctest */,
+				63C5A74422ACAB8900091EDE /* MySeckillAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C5A72322ACAB8800091EDE /* MySeckillApp */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A72422ACAB8800091EDE /* AppDelegate.h */,
+				63C5A72522ACAB8800091EDE /* AppDelegate.m */,
+				63C5A72722ACAB8800091EDE /* ViewController.h */,
+				63C5A72822ACAB8800091EDE /* ViewController.m */,
+				63C5A72A22ACAB8800091EDE /* Main.storyboard */,
+				63C5A72D22ACAB8900091EDE /* Assets.xcassets */,
+				63C5A72F22ACAB8900091EDE /* LaunchScreen.storyboard */,
+				63C5A73222ACAB8900091EDE /* Info.plist */,
+				63C5A73322ACAB8900091EDE /* main.m */,
+			);
+			path = MySeckillApp;
+			sourceTree = "<group>";
+		};
+		63C5A73C22ACAB8900091EDE /* MySeckillAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A73D22ACAB8900091EDE /* MySeckillAppTests.m */,
+				63C5A73F22ACAB8900091EDE /* Info.plist */,
+			);
+			path = MySeckillAppTests;
+			sourceTree = "<group>";
+		};
+		63C5A74722ACAB8900091EDE /* MySeckillAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A74822ACAB8900091EDE /* MySeckillAppUITests.m */,
+				63C5A74A22ACAB8900091EDE /* Info.plist */,
+			);
+			path = MySeckillAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C5A72022ACAB8800091EDE /* MySeckillApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C5A74D22ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillApp" */;
+			buildPhases = (
+				63C5A71D22ACAB8800091EDE /* Sources */,
+				63C5A71E22ACAB8800091EDE /* Frameworks */,
+				63C5A71F22ACAB8800091EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySeckillApp;
+			productName = MySeckillApp;
+			productReference = 63C5A72122ACAB8800091EDE /* MySeckillApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C5A73822ACAB8900091EDE /* MySeckillAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C5A75022ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppTests" */;
+			buildPhases = (
+				63C5A73522ACAB8900091EDE /* Sources */,
+				63C5A73622ACAB8900091EDE /* Frameworks */,
+				63C5A73722ACAB8900091EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C5A73B22ACAB8900091EDE /* PBXTargetDependency */,
+			);
+			name = MySeckillAppTests;
+			productName = MySeckillAppTests;
+			productReference = 63C5A73922ACAB8900091EDE /* MySeckillAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63C5A74322ACAB8900091EDE /* MySeckillAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C5A75322ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppUITests" */;
+			buildPhases = (
+				63C5A74022ACAB8900091EDE /* Sources */,
+				63C5A74122ACAB8900091EDE /* Frameworks */,
+				63C5A74222ACAB8900091EDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C5A74622ACAB8900091EDE /* PBXTargetDependency */,
+			);
+			name = MySeckillAppUITests;
+			productName = MySeckillAppUITests;
+			productReference = 63C5A74422ACAB8900091EDE /* MySeckillAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C5A71922ACAB8800091EDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Liu Baoshuai";
+				TargetAttributes = {
+					63C5A72022ACAB8800091EDE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					63C5A73822ACAB8900091EDE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 63C5A72022ACAB8800091EDE;
+					};
+					63C5A74322ACAB8900091EDE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 63C5A72022ACAB8800091EDE;
+					};
+				};
+			};
+			buildConfigurationList = 63C5A71C22ACAB8800091EDE /* Build configuration list for PBXProject "MySeckillApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C5A71822ACAB8800091EDE;
+			productRefGroup = 63C5A72222ACAB8800091EDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C5A72022ACAB8800091EDE /* MySeckillApp */,
+				63C5A73822ACAB8900091EDE /* MySeckillAppTests */,
+				63C5A74322ACAB8900091EDE /* MySeckillAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C5A71F22ACAB8800091EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C5A73122ACAB8900091EDE /* LaunchScreen.storyboard in Resources */,
+				63C5A72E22ACAB8900091EDE /* Assets.xcassets in Resources */,
+				63C5A72C22ACAB8800091EDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A73722ACAB8900091EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A74222ACAB8900091EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C5A71D22ACAB8800091EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C5A72922ACAB8800091EDE /* ViewController.m in Sources */,
+				63C5A73422ACAB8900091EDE /* main.m in Sources */,
+				63C5A72622ACAB8800091EDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A73522ACAB8900091EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C5A73E22ACAB8900091EDE /* MySeckillAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5A74022ACAB8900091EDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C5A74922ACAB8900091EDE /* MySeckillAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63C5A73B22ACAB8900091EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C5A72022ACAB8800091EDE /* MySeckillApp */;
+			targetProxy = 63C5A73A22ACAB8900091EDE /* PBXContainerItemProxy */;
+		};
+		63C5A74622ACAB8900091EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C5A72022ACAB8800091EDE /* MySeckillApp */;
+			targetProxy = 63C5A74522ACAB8900091EDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63C5A72A22ACAB8800091EDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C5A72B22ACAB8800091EDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C5A72F22ACAB8900091EDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C5A73022ACAB8900091EDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C5A74B22ACAB8900091EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C5A74C22ACAB8900091EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C5A74E22ACAB8900091EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C5A74F22ACAB8900091EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63C5A75122ACAB8900091EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySeckillApp.app/MySeckillApp";
+			};
+			name = Debug;
+		};
+		63C5A75222ACAB8900091EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MySeckillApp.app/MySeckillApp";
+			};
+			name = Release;
+		};
+		63C5A75422ACAB8900091EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySeckillApp;
+			};
+			name = Debug;
+		};
+		63C5A75522ACAB8900091EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JAF83NDSX6;
+				INFOPLIST_FILE = MySeckillAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lbs.MySeckillApp.MySeckillAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MySeckillApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C5A71C22ACAB8800091EDE /* Build configuration list for PBXProject "MySeckillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C5A74B22ACAB8900091EDE /* Debug */,
+				63C5A74C22ACAB8900091EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C5A74D22ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C5A74E22ACAB8900091EDE /* Debug */,
+				63C5A74F22ACAB8900091EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C5A75022ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C5A75122ACAB8900091EDE /* Debug */,
+				63C5A75222ACAB8900091EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C5A75322ACAB8900091EDE /* Build configuration list for PBXNativeTarget "MySeckillAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C5A75422ACAB8900091EDE /* Debug */,
+				63C5A75522ACAB8900091EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C5A71922ACAB8800091EDE /* Project object */;
+}
