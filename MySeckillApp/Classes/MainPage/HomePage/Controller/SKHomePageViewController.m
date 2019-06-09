@@ -6,7 +6,12 @@
 //  Copyright © 2019 Liu Baoshuai. All rights reserved.
 //
 
+/*
+ 主页视图
+ */
+
 #import "SKHomePageViewController.h"
+#import "SKListCellView.h"
 
 @interface SKHomePageViewController ()
 
@@ -14,25 +19,45 @@
 
 @implementation SKHomePageViewController
 
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    [self setUpNav];
+    [self setUpRefresh];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SKListCellView class]) bundle: nil] forCellReuseIdentifier:@"123"];
+}
+
+
+/// 设置导航
+- (void) setUpNav {
+    UIButton *hotButton = [UIButton buttonWithType:UIButtonTypeCustom];  //自定义类型
+    [hotButton setImage:[UIImage imageNamed:@"hot_icon"] forState:UIControlStateNormal];
+    [hotButton sizeToFit];
+    [hotButton addTarget:self action:@selector(hotBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:hotButton];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+
+/// 设置刷新
+- (void) setUpRefresh {
+    self.tableView.mj_header = [];
+}
+
+
+- (void) hotBtnClick {
+    
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
+
     return 0;
 }
 

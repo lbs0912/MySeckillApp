@@ -18,6 +18,8 @@
 		63C5A75E22ACAE4A00091EDE /* SKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A75D22ACAE4A00091EDE /* SKTabBarController.m */; };
 		63C5A76622ACB30100091EDE /* SKHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76522ACB30100091EDE /* SKHomePageViewController.m */; };
 		63C5A76922ACB58900091EDE /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76822ACB58900091EDE /* SKNavigationController.m */; };
+		63C5A76E22ACBAFA00091EDE /* SKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */; };
+		63C5A77122ACC85300091EDE /* SKListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A77022ACC85300091EDE /* SKListCellView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		63C5A76522ACB30100091EDE /* SKHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKHomePageViewController.m; sourceTree = "<group>"; };
 		63C5A76722ACB58900091EDE /* SKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKNavigationController.h; sourceTree = "<group>"; };
 		63C5A76822ACB58900091EDE /* SKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKNavigationController.m; sourceTree = "<group>"; };
+		63C5A76C22ACBAFA00091EDE /* SKBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBaseTableViewController.h; sourceTree = "<group>"; };
+		63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBaseTableViewController.m; sourceTree = "<group>"; };
+		63C5A76F22ACC85300091EDE /* SKListCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKListCellView.h; sourceTree = "<group>"; };
+		63C5A77022ACC85300091EDE /* SKListCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKListCellView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +204,8 @@
 		63C5A76022ACB28000091EDE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				63C5A76F22ACC85300091EDE /* SKListCellView.h */,
+				63C5A77022ACC85300091EDE /* SKListCellView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,8 +239,18 @@
 		63C5A76A22ACB9D700091EDE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				63C5A76B22ACBAA200091EDE /* SKBaseTableViewController */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		63C5A76B22ACBAA200091EDE /* SKBaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A76C22ACBAFA00091EDE /* SKBaseTableViewController.h */,
+				63C5A76D22ACBAFA00091EDE /* SKBaseTableViewController.m */,
+			);
+			path = SKBaseTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +383,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C5A77122ACC85300091EDE /* SKListCellView.m in Sources */,
 				63C5A75E22ACAE4A00091EDE /* SKTabBarController.m in Sources */,
 				63C5A72922ACAB8800091EDE /* ViewController.m in Sources */,
+				63C5A76E22ACBAFA00091EDE /* SKBaseTableViewController.m in Sources */,
 				63C5A73422ACAB8900091EDE /* main.m in Sources */,
 				63C5A72622ACAB8800091EDE /* AppDelegate.m in Sources */,
 				63C5A76622ACB30100091EDE /* SKHomePageViewController.m in Sources */,
