@@ -15,6 +15,9 @@
 		63C5A73422ACAB8900091EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A73322ACAB8900091EDE /* main.m */; };
 		63C5A73E22ACAB8900091EDE /* MySeckillAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A73D22ACAB8900091EDE /* MySeckillAppTests.m */; };
 		63C5A74922ACAB8900091EDE /* MySeckillAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A74822ACAB8900091EDE /* MySeckillAppUITests.m */; };
+		63C5A75E22ACAE4A00091EDE /* SKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A75D22ACAE4A00091EDE /* SKTabBarController.m */; };
+		63C5A76622ACB30100091EDE /* SKHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76522ACB30100091EDE /* SKHomePageViewController.m */; };
+		63C5A76922ACB58900091EDE /* SKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C5A76822ACB58900091EDE /* SKNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		63C5A74422ACAB8900091EDE /* MySeckillAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySeckillAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C5A74822ACAB8900091EDE /* MySeckillAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySeckillAppUITests.m; sourceTree = "<group>"; };
 		63C5A74A22ACAB8900091EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C5A75C22ACAE4A00091EDE /* SKTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTabBarController.h; sourceTree = "<group>"; };
+		63C5A75D22ACAE4A00091EDE /* SKTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKTabBarController.m; sourceTree = "<group>"; };
+		63C5A76422ACB30100091EDE /* SKHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKHomePageViewController.h; sourceTree = "<group>"; };
+		63C5A76522ACB30100091EDE /* SKHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKHomePageViewController.m; sourceTree = "<group>"; };
+		63C5A76722ACB58900091EDE /* SKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKNavigationController.h; sourceTree = "<group>"; };
+		63C5A76822ACB58900091EDE /* SKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		63C5A72322ACAB8800091EDE /* MySeckillApp */ = {
 			isa = PBXGroup;
 			children = (
+				63C5A75722ACAD9A00091EDE /* Classes */,
 				63C5A72422ACAB8800091EDE /* AppDelegate.h */,
 				63C5A72522ACAB8800091EDE /* AppDelegate.m */,
 				63C5A72722ACAB8800091EDE /* ViewController.h */,
@@ -130,6 +140,99 @@
 				63C5A74A22ACAB8900091EDE /* Info.plist */,
 			);
 			path = MySeckillAppUITests;
+			sourceTree = "<group>";
+		};
+		63C5A75722ACAD9A00091EDE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A76A22ACB9D700091EDE /* Base */,
+				63C5A75F22ACB25200091EDE /* MainPage */,
+				63C5A75822ACADB000091EDE /* TabBar */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		63C5A75822ACADB000091EDE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A75B22ACADD700091EDE /* View */,
+				63C5A75A22ACADD100091EDE /* Model */,
+				63C5A75922ACADC900091EDE /* Controller */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		63C5A75922ACADC900091EDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A75C22ACAE4A00091EDE /* SKTabBarController.h */,
+				63C5A75D22ACAE4A00091EDE /* SKTabBarController.m */,
+				63C5A76722ACB58900091EDE /* SKNavigationController.h */,
+				63C5A76822ACB58900091EDE /* SKNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63C5A75A22ACADD100091EDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63C5A75B22ACADD700091EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63C5A75F22ACB25200091EDE /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A76222ACB28D00091EDE /* HomePage */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		63C5A76022ACB28000091EDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63C5A76122ACB28600091EDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63C5A76222ACB28D00091EDE /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A76322ACB2A500091EDE /* Controller */,
+				63C5A76022ACB28000091EDE /* View */,
+				63C5A76122ACB28600091EDE /* Model */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		63C5A76322ACB2A500091EDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C5A76422ACB30100091EDE /* SKHomePageViewController.h */,
+				63C5A76522ACB30100091EDE /* SKHomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63C5A76A22ACB9D700091EDE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C5A75E22ACAE4A00091EDE /* SKTabBarController.m in Sources */,
 				63C5A72922ACAB8800091EDE /* ViewController.m in Sources */,
 				63C5A73422ACAB8900091EDE /* main.m in Sources */,
 				63C5A72622ACAB8800091EDE /* AppDelegate.m in Sources */,
+				63C5A76622ACB30100091EDE /* SKHomePageViewController.m in Sources */,
+				63C5A76922ACB58900091EDE /* SKNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

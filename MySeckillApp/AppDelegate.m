@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SKTabBarController.h"  //底部Tab栏
 
 @interface AppDelegate ()
 
@@ -14,9 +15,22 @@
 
 @implementation AppDelegate
 
+#pragma mark - getter method
+
+- (UIWindow *) window {
+    if(!_window){
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        [_window makeKeyWindow];
+    }
+    return _window;
+    
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[SKTabBarViewController alloc] init];  //根视图初始化
     return YES;
 }
 
