@@ -46,6 +46,7 @@
     if(!_manager){
         _manager = [AFHTTPSessionManager manager];
     }
+    
     return _manager;
 }
 
@@ -54,6 +55,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // test 1
+    // test 2
+    // test 3
     [self setUpNav];
     [self setUpRefresh];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SKListCellView class]) bundle: nil] forCellReuseIdentifier:@"123"];
